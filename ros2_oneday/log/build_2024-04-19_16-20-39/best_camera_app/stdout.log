@@ -1,0 +1,24 @@
+running egg_info
+writing ../../build/best_camera_app/best_camera_app.egg-info/PKG-INFO
+writing dependency_links to ../../build/best_camera_app/best_camera_app.egg-info/dependency_links.txt
+writing entry points to ../../build/best_camera_app/best_camera_app.egg-info/entry_points.txt
+writing requirements to ../../build/best_camera_app/best_camera_app.egg-info/requires.txt
+writing top-level names to ../../build/best_camera_app/best_camera_app.egg-info/top_level.txt
+reading manifest file '../../build/best_camera_app/best_camera_app.egg-info/SOURCES.txt'
+writing manifest file '../../build/best_camera_app/best_camera_app.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+copying launch/best_camera_app.launch.py -> /home/dyjung/git_ws/ros2_camera_project/ros2_oneday/install/best_camera_app/share/best_camera_app/launch
+running install_egg_info
+removing '/home/dyjung/git_ws/ros2_camera_project/ros2_oneday/install/best_camera_app/lib/python3.10/site-packages/best_camera_app-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/best_camera_app/best_camera_app.egg-info to /home/dyjung/git_ws/ros2_camera_project/ros2_oneday/install/best_camera_app/lib/python3.10/site-packages/best_camera_app-0.0.0-py3.10.egg-info
+running install_scripts
+Installing camera_blurred script to /home/dyjung/git_ws/ros2_camera_project/ros2_oneday/install/best_camera_app/lib/best_camera_app
+Installing camera_capture script to /home/dyjung/git_ws/ros2_camera_project/ros2_oneday/install/best_camera_app/lib/best_camera_app
+Installing camera_record script to /home/dyjung/git_ws/ros2_camera_project/ros2_oneday/install/best_camera_app/lib/best_camera_app
+Installing camera_rgb script to /home/dyjung/git_ws/ros2_camera_project/ros2_oneday/install/best_camera_app/lib/best_camera_app
+Installing img_publisher script to /home/dyjung/git_ws/ros2_camera_project/ros2_oneday/install/best_camera_app/lib/best_camera_app
+writing list of installed files to '/home/dyjung/git_ws/ros2_camera_project/ros2_oneday/build/best_camera_app/install.log'

@@ -1,5 +1,5 @@
 /best_camera_app/camera_record:
   ros__parameters:
-    record_save_path: /home/dyjung/ros2_oneday/
+    record_save_path: /home/dyjung/git_ws/ros2_camera_project/ros2_oneday/
     use_sim_time: false
 

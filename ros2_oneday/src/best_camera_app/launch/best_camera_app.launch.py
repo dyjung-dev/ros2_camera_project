@@ -29,6 +29,10 @@ def generate_launch_description():
                 namespace= "best_camera_app", package = 'best_camera_app',
                 executable='camera_blurred', output = 'screen'),
 
+            Node(
+                namespace= "best_camera_app", package = 'best_camera_app',
+                executable='camera_rgb', output = 'screen'),
+
             
         ]
     )

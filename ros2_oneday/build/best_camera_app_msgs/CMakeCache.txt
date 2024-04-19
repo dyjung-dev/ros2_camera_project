@@ -32,7 +32,7 @@ AMENT_CMAKE_SYMLINK_INSTALL:BOOL=OFF
 AMENT_CMAKE_UNINSTALL_TARGET:BOOL=ON
 
 //The path where test results are generated
-AMENT_TEST_RESULTS_DIR:PATH=/home/dyjung/ros2_oneday/build/best_camera_app_msgs/test_results
+AMENT_TEST_RESULTS_DIR:PATH=/home/dyjung/git_ws/ros2_camera_project/ros2_oneday/build/best_camera_app_msgs/test_results
 
 //Global flag to cause add_library() to create shared libraries
 // if on. If set to true, this will cause all libraries to be built
@@ -129,7 +129,7 @@ CMAKE_EXE_LINKER_FLAGS_RELWITHDEBINFO:STRING=
 CMAKE_EXPORT_COMPILE_COMMANDS:BOOL=
 
 //Install path prefix, prepended onto install directories.
-CMAKE_INSTALL_PREFIX:PATH=/home/dyjung/ros2_oneday/install/best_camera_app_msgs
+CMAKE_INSTALL_PREFIX:PATH=/home/dyjung/git_ws/ros2_camera_project/ros2_oneday/install/best_camera_app_msgs
 
 //Path to a program.
 CMAKE_LINKER:FILEPATH=/usr/bin/ld
@@ -352,13 +352,13 @@ ament_lint_common_DIR:PATH=/opt/ros/humble/share/ament_lint_common/cmake
 ament_xmllint_BIN:FILEPATH=/opt/ros/humble/bin/ament_xmllint
 
 //Value Computed by CMake
-best_camera_app_msgs_BINARY_DIR:STATIC=/home/dyjung/ros2_oneday/build/best_camera_app_msgs
+best_camera_app_msgs_BINARY_DIR:STATIC=/home/dyjung/git_ws/ros2_camera_project/ros2_oneday/build/best_camera_app_msgs
 
 //Value Computed by CMake
 best_camera_app_msgs_IS_TOP_LEVEL:STATIC=ON
 
 //Value Computed by CMake
-best_camera_app_msgs_SOURCE_DIR:STATIC=/home/dyjung/ros2_oneday/src/best_camera_app_msgs
+best_camera_app_msgs_SOURCE_DIR:STATIC=/home/dyjung/git_ws/ros2_camera_project/ros2_oneday/src/best_camera_app_msgs
 
 //Dependencies for the target
 best_camera_app_msgs__rosidl_generator_c_LIB_DEPENDS:STATIC=general;rosidl_runtime_c::rosidl_runtime_c;general;rcutils::rcutils;
@@ -469,7 +469,7 @@ CMAKE_ADDR2LINE-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_AR
 CMAKE_AR-ADVANCED:INTERNAL=1
 //This is the directory where this CMakeCache.txt was created
-CMAKE_CACHEFILE_DIR:INTERNAL=/home/dyjung/ros2_oneday/build/best_camera_app_msgs
+CMAKE_CACHEFILE_DIR:INTERNAL=/home/dyjung/git_ws/ros2_camera_project/ros2_oneday/build/best_camera_app_msgs
 //Major version of cmake used to create the current loaded cache
 CMAKE_CACHE_MAJOR_VERSION:INTERNAL=3
 //Minor version of cmake used to create the current loaded cache
