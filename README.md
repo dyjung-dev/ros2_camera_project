@@ -212,10 +212,6 @@
    + Dayeon Jung - dyjung.dev@gmail.com
         
 
-## Thanks to  :sparkling_heart:
----
-
-
       
 
 
