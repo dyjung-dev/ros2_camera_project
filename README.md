@@ -169,9 +169,99 @@
      ![image](https://github.com/dyjung-dev/ros2_camera_project/assets/137265648/1e5c50a4-52b0-4f91-b42e-15e69dad8c8c)
 
 
+## Parameters :paw_prints:
+---
+   + capture_save_path :  camera_capture 노드가 이미지를 저장하는 경로를 지정해주는 변수이다
+      
+   ![image](https://github.com/dyjung-dev/ros2_camera_project/assets/137265648/e01c76b1-d549-4a17-b190-4709e4ee5678)
+
+      
+   + record_save_path : camera_record 노드가 영상을 저장하는 경로를 지정해주는 변수이다
+      
+   ![image](https://github.com/dyjung-dev/ros2_camera_project/assets/137265648/afaab2e1-1cb0-4085-b1d0-0db9c146b406)
+
+## Nodes :new_moon:
+---
+   + img_publisher
+
+      카메라 화면을 받아오는 토픽을 발생하는 노드
+
+      실행 명령어 :
+   
+      ```
+      ros2 run best_camera_app img_publisher
+      ```
+         
+   + camera_capture
+    
+     카메라 화면의 스틸샷을 찍는 서비스를 구동시키는 노드
+
+     서비스 실행 명령어 :
+   
+      ```
+      ros2 service call /best_camera_app/camera_capture best_camera_app_msgs/srv/CaptureService "{capture_true: true}"
+      ```
+
+      **capture_ture** : true가 넘어올 경우, 그 순간을 캡쳐해서 저장한다. true를 제외한 다른 값들에는 어떠한 결과도 나오지 않는다
+        
+   + camera_record
+         
+      카메라 화면을 영상으로 저장하는 서비스를 구동시키는 노드
+
+      서비스 실행 명령어 :
+      
+      ```
+      ros2 service call /best_camera_app/camera_record best_camera_app_msgs/srv/VideoRecordService "{video_start_end: start}"
+      ```
+   
+      **video_start_end** : start(그 순간부터 카메라가 녹화를 시작한다), end(카메라가 녹화를 중지하고 파일을 저장한다)
+        
+   + camera_blurred
+   
+      화면을 흐리게 만드는 Blurr 기능을 제공하는 서비스를 구동시키는 노드
+      
+      서비스 실행 명령어 :
+            
+      ```
+      ros2 service call /best_camera_app/camera_blurred best_camera_app_msgs/srv/ApplyBlurrService "{apply_blurr_true_false: true}"
+      ```
+            
+      **apply_blur_true_false** : true(카메라 화면에 blurr 효과를 적용한다), false(카메라 화면에 적용된 blurr 효과를 없앤다)
+          
+   + camera_rgb
+     
+      카메라에서 받아온 화면의 rgb 값을 조절하는 서비스를 구동시키는 노드
+
+      서비스 실행 명령어 :
+
+      ```
+      ros2 service call /best_camera_app/camera_blurred best_camera_app_msgs/srv/ApplyRGBService "{r: 2.0,g:0.2, b:0.2}"
+      ```
+
+      **r** : 0.0 ~ 2.0 의 값을 입력하면 이미지의 빨간색 속성을 비율적으로 적용시킨다. 원본 이미지의 경우 1.0이 적용되어 있다     
+      **g** : 0.0 ~ 2.0 의 값을 입력하면 이미지의 초록색 속성을 비율적으로 적용시킨다. 원본 이미지의 경우 1.0이 적용되어 있다     
+      **b** : 0.0 ~ 2.0 의 값을 입력하면 이미지의 파란색 속성을 비율적으로 적용시킨다. 원본 이미지의 경우 1.0이 적용되어 있다     
 
 
+            
 
+        
+## Launch File :fries:
+---
+
+  ![image](https://github.com/dyjung-dev/ros2_camera_project/assets/137265648/97dcfe90-3cb9-4422-a6c5-b2fdf430d149)
+      
+         
+ namespace= 'best_camera_app'을 적용하여 img_publisher, camera_capture, camera_record, camera_blurred, camera_rgb 노드를 구동시키는 launch 파일이다
+
+          
+ 위 이미지의 rqt_graph 결과를 확인하면 노드들 간의 관계를 알 수 있다
+
+
+     
+
+     
+             
 ## ShowCase :rocket:
 ---
 
