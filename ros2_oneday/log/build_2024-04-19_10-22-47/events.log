@@ -1,0 +1,55 @@
+[0.000000] (-) TimerEvent: {}
+[0.000088] (best_camera_app) JobQueued: {'identifier': 'best_camera_app', 'dependencies': OrderedDict()}
+[0.000125] (best_camera_app_msgs) JobQueued: {'identifier': 'best_camera_app_msgs', 'dependencies': OrderedDict()}
+[0.000152] (best_camera_app) JobStarted: {'identifier': 'best_camera_app'}
+[0.009233] (best_camera_app_msgs) JobStarted: {'identifier': 'best_camera_app_msgs'}
+[0.099401] (-) TimerEvent: {}
+[0.194004] (best_camera_app_msgs) JobProgress: {'identifier': 'best_camera_app_msgs', 'progress': 'cmake'}
+[0.195362] (best_camera_app_msgs) JobProgress: {'identifier': 'best_camera_app_msgs', 'progress': 'build'}
+[0.195392] (best_camera_app_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/dyjung/ros2_oneday/build/best_camera_app_msgs', '--', '-j12', '-l12'], 'cwd': '/home/dyjung/ros2_oneday/build/best_camera_app_msgs', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'dyjung'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/local/cuda/lib64::/usr/local/cuda-11.8/lib64/'), ('HOME', '/home/dyjung'), ('OLDPWD', '/home/dyjung/ros2_oneday/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '1126'), ('SYSTEMD_EXEC_PID', '1646'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '7552'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'dyjung'), ('JOURNAL_STREAM', '8:35897'), ('_', '/usr/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'dyjung'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/usr/local/cuda/bin:/home/dyjung/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/dyjungPC:@/tmp/.ICE-unix/1605,unix/dyjungPC:/tmp/.ICE-unix/1605'), ('INVOCATION_ID', '41b90a0d481c49fc9a08c6b3b6050f7c'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:6f149edf-4aab-4b6b-a99b-f6c8637cd7e6'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/dyjung/ros2_oneday/build/best_camera_app_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('CUDA_HOME', '/usr/local/cuda-11.8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800')]), 'shell': False}
+[0.199462] (-) TimerEvent: {}
+[0.243466] (best_camera_app_msgs) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at CMakeLists.txt:17:\n'}
+[0.243614] (best_camera_app_msgs) StderrLine: {'line': b'  Syntax Warning in cmake code at column 26\n'}
+[0.243669] (best_camera_app_msgs) StderrLine: {'line': b'\n'}
+[0.243719] (best_camera_app_msgs) StderrLine: {'line': b'  Argument not separated from preceding token by whitespace.\n'}
+[0.243766] (best_camera_app_msgs) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.243813] (best_camera_app_msgs) StderrLine: {'line': b'\x1b[0m\n'}
+[0.243859] (best_camera_app_msgs) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at CMakeLists.txt:18:\n'}
+[0.243904] (best_camera_app_msgs) StderrLine: {'line': b'  Syntax Warning in cmake code at column 27\n'}
+[0.243949] (best_camera_app_msgs) StderrLine: {'line': b'\n'}
+[0.243993] (best_camera_app_msgs) StderrLine: {'line': b'  Argument not separated from preceding token by whitespace.\n'}
+[0.244038] (best_camera_app_msgs) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.244082] (best_camera_app_msgs) StderrLine: {'line': b'\x1b[0m\n'}
+[0.244126] (best_camera_app_msgs) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at CMakeLists.txt:19:\n'}
+[0.244169] (best_camera_app_msgs) StderrLine: {'line': b'  Syntax Warning in cmake code at column 31\n'}
+[0.244212] (best_camera_app_msgs) StderrLine: {'line': b'\n'}
+[0.244255] (best_camera_app_msgs) StderrLine: {'line': b'  Argument not separated from preceding token by whitespace.\n'}
+[0.244299] (best_camera_app_msgs) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.244342] (best_camera_app_msgs) StderrLine: {'line': b'\x1b[0m\n'}
+[0.251984] (best_camera_app_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.299576] (-) TimerEvent: {}
+[0.357310] (best_camera_app_msgs) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[0.357435] (best_camera_app_msgs) StderrLine: {'line': b'  File "/opt/ros/humble/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py", line 21, in <module>\n'}
+[0.357491] (best_camera_app_msgs) StderrLine: {'line': b'    from ament_package.templates import get_environment_hook_template_path\n'}
+[0.357539] (best_camera_app_msgs) StderrLine: {'line': b"ModuleNotFoundError: No module named 'ament_package'\n"}
+[0.366111] (best_camera_app_msgs) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/ament_cmake_package_templates-extras.cmake:41 (message):\n'}
+[0.366256] (best_camera_app_msgs) StderrLine: {'line': b'  execute_process(/usr/bin/python3\n'}
+[0.366326] (best_camera_app_msgs) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py\n'}
+[0.366454] (best_camera_app_msgs) StderrLine: {'line': b'  /home/dyjung/ros2_oneday/build/best_camera_app_msgs/ament_cmake_package_templates/templates.cmake)\n'}
+[0.366520] (best_camera_app_msgs) StderrLine: {'line': b'  returned error code 1\n'}
+[0.366570] (best_camera_app_msgs) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.366616] (best_camera_app_msgs) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)\n'}
+[0.366662] (best_camera_app_msgs) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)\n'}
+[0.366707] (best_camera_app_msgs) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)\n'}
+[0.366751] (best_camera_app_msgs) StderrLine: {'line': b'  CMakeLists.txt:9 (find_package)\n'}
+[0.366796] (best_camera_app_msgs) StderrLine: {'line': b'\n'}
+[0.366840] (best_camera_app_msgs) StderrLine: {'line': b'\x1b[0m\n'}
+[0.366884] (best_camera_app_msgs) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.366932] (best_camera_app_msgs) StdoutLine: {'line': b'See also "/home/dyjung/ros2_oneday/build/best_camera_app_msgs/CMakeFiles/CMakeOutput.log".\n'}
+[0.368104] (best_camera_app_msgs) StderrLine: {'line': b'gmake: *** [Makefile:747: cmake_check_build_system] Error 1\n'}
+[0.369866] (best_camera_app_msgs) CommandEnded: {'returncode': 2}
+[0.399681] (-) TimerEvent: {}
+[0.419475] (best_camera_app_msgs) JobEnded: {'identifier': 'best_camera_app_msgs', 'rc': 2}
+[0.499791] (-) TimerEvent: {}
+[0.556754] (best_camera_app) JobEnded: {'identifier': 'best_camera_app', 'rc': 'SIGINT'}
+[0.567279] (-) EventReactorShutdown: {}

@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from best_camera_app_msgs/srv/ApplyRGBService.srv
+// generated code does not contain a copyright notice
+
+
+module best_camera_app_msgs {
+  module srv {
+    struct ApplyRGBService_Request {
+      double r;
+
+      double g;
+
+      double b;
+    };
+    struct ApplyRGBService_Response {
+      string result;
+    };
+  };
+};

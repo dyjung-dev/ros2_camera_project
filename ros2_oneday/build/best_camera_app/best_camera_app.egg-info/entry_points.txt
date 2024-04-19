@@ -1,0 +1,7 @@
+[console_scripts]
+camera_blurred = best_camera_app.camera_blurred:main
+camera_capture = best_camera_app.camera_capture:main
+camera_record = best_camera_app.camera_record:main
+camera_rgb = best_camera_app.camera_rgb:main
+img_publisher = best_camera_app.img_publisher:main
+

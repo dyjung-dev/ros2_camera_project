@@ -1,0 +1,5 @@
+/best_camera_app/camera_capture:
+  ros__parameters:
+    capture_save_path: /home/dyjung/ros2_oneday/
+    use_sim_time: false
+

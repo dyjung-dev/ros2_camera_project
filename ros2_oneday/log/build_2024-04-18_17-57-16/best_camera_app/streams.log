@@ -1,0 +1,27 @@
+[0.545s] Invoking command in '/home/dyjung/ros2_oneday/src/best_camera_app': PYTHONPATH=/home/dyjung/ros2_oneday/build/best_camera_app/prefix_override:/home/dyjung/ros2_oneday/install/best_camera_app/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/best_camera_app build --build-base /home/dyjung/ros2_oneday/build/best_camera_app/build install --record /home/dyjung/ros2_oneday/build/best_camera_app/install.log --single-version-externally-managed install_data
+[0.757s] running egg_info
+[0.758s] writing ../../build/best_camera_app/best_camera_app.egg-info/PKG-INFO
+[0.758s] writing dependency_links to ../../build/best_camera_app/best_camera_app.egg-info/dependency_links.txt
+[0.758s] writing entry points to ../../build/best_camera_app/best_camera_app.egg-info/entry_points.txt
+[0.758s] writing requirements to ../../build/best_camera_app/best_camera_app.egg-info/requires.txt
+[0.758s] writing top-level names to ../../build/best_camera_app/best_camera_app.egg-info/top_level.txt
+[0.759s] reading manifest file '../../build/best_camera_app/best_camera_app.egg-info/SOURCES.txt'
+[0.760s] writing manifest file '../../build/best_camera_app/best_camera_app.egg-info/SOURCES.txt'
+[0.760s] running build
+[0.760s] running build_py
+[0.760s] copying best_camera_app/img_publisher.py -> /home/dyjung/ros2_oneday/build/best_camera_app/build/lib/best_camera_app
+[0.761s] running install
+[0.761s] running install_lib
+[0.761s] copying /home/dyjung/ros2_oneday/build/best_camera_app/build/lib/best_camera_app/img_publisher.py -> /home/dyjung/ros2_oneday/install/best_camera_app/lib/python3.10/site-packages/best_camera_app
+[0.762s] byte-compiling /home/dyjung/ros2_oneday/install/best_camera_app/lib/python3.10/site-packages/best_camera_app/img_publisher.py to img_publisher.cpython-310.pyc
+[0.762s] running install_data
+[0.762s] running install_egg_info
+[0.764s] removing '/home/dyjung/ros2_oneday/install/best_camera_app/lib/python3.10/site-packages/best_camera_app-0.0.0-py3.10.egg-info' (and everything under it)
+[0.764s] Copying ../../build/best_camera_app/best_camera_app.egg-info to /home/dyjung/ros2_oneday/install/best_camera_app/lib/python3.10/site-packages/best_camera_app-0.0.0-py3.10.egg-info
+[0.765s] running install_scripts
+[0.780s] Installing camera_blurred script to /home/dyjung/ros2_oneday/install/best_camera_app/lib/best_camera_app
+[0.780s] Installing camera_capture script to /home/dyjung/ros2_oneday/install/best_camera_app/lib/best_camera_app
+[0.780s] Installing camera_record script to /home/dyjung/ros2_oneday/install/best_camera_app/lib/best_camera_app
+[0.780s] Installing img_publisher script to /home/dyjung/ros2_oneday/install/best_camera_app/lib/best_camera_app
+[0.780s] writing list of installed files to '/home/dyjung/ros2_oneday/build/best_camera_app/install.log'
+[0.797s] Invoked command in '/home/dyjung/ros2_oneday/src/best_camera_app' returned '0': PYTHONPATH=/home/dyjung/ros2_oneday/build/best_camera_app/prefix_override:/home/dyjung/ros2_oneday/install/best_camera_app/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/best_camera_app build --build-base /home/dyjung/ros2_oneday/build/best_camera_app/build install --record /home/dyjung/ros2_oneday/build/best_camera_app/install.log --single-version-externally-managed install_data

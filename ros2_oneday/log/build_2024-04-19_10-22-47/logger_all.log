@@ -1,0 +1,153 @@
+[0.236s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.236s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x749cfff85d50>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x749cfff85900>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x749cfff85900>>)
+[0.430s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.430s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.430s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.430s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.431s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.431s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.431s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/dyjung/ros2_oneday'
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(src/best_camera_app) by extensions ['ignore', 'ignore_ament_install']
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(src/best_camera_app) by extension 'ignore'
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(src/best_camera_app) by extension 'ignore_ament_install'
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(src/best_camera_app) by extensions ['colcon_pkg']
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(src/best_camera_app) by extension 'colcon_pkg'
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(src/best_camera_app) by extensions ['colcon_meta']
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(src/best_camera_app) by extension 'colcon_meta'
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(src/best_camera_app) by extensions ['ros']
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(src/best_camera_app) by extension 'ros'
+[0.452s] DEBUG:colcon.colcon_core.package_identification:Package 'src/best_camera_app' with type 'ros.ament_python' and name 'best_camera_app'
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(src/best_camera_app_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(src/best_camera_app_msgs) by extension 'ignore'
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(src/best_camera_app_msgs) by extension 'ignore_ament_install'
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(src/best_camera_app_msgs) by extensions ['colcon_pkg']
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(src/best_camera_app_msgs) by extension 'colcon_pkg'
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(src/best_camera_app_msgs) by extensions ['colcon_meta']
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(src/best_camera_app_msgs) by extension 'colcon_meta'
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(src/best_camera_app_msgs) by extensions ['ros']
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(src/best_camera_app_msgs) by extension 'ros'
+[0.453s] DEBUG:colcon.colcon_core.package_identification:Package 'src/best_camera_app_msgs' with type 'ros.ament_cmake' and name 'best_camera_app_msgs'
+[0.453s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.453s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.453s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.453s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.453s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.476s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.476s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.478s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.479s] Level 5:colcon.colcon_core.verb:set package 'best_camera_app' build argument 'cmake_args' from command line to 'None'
+[0.480s] Level 5:colcon.colcon_core.verb:set package 'best_camera_app' build argument 'cmake_target' from command line to 'None'
+[0.480s] Level 5:colcon.colcon_core.verb:set package 'best_camera_app' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.480s] Level 5:colcon.colcon_core.verb:set package 'best_camera_app' build argument 'cmake_clean_cache' from command line to 'False'
+[0.480s] Level 5:colcon.colcon_core.verb:set package 'best_camera_app' build argument 'cmake_clean_first' from command line to 'False'
+[0.480s] Level 5:colcon.colcon_core.verb:set package 'best_camera_app' build argument 'cmake_force_configure' from command line to 'False'
+[0.480s] Level 5:colcon.colcon_core.verb:set package 'best_camera_app' build argument 'ament_cmake_args' from command line to 'None'
+[0.480s] Level 5:colcon.colcon_core.verb:set package 'best_camera_app' build argument 'catkin_cmake_args' from command line to 'None'
+[0.480s] Level 5:colcon.colcon_core.verb:set package 'best_camera_app' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.480s] DEBUG:colcon.colcon_core.verb:Building package 'best_camera_app' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dyjung/ros2_oneday/build/best_camera_app', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dyjung/ros2_oneday/install/best_camera_app', 'merge_install': False, 'path': '/home/dyjung/ros2_oneday/src/best_camera_app', 'symlink_install': False, 'test_result_base': None}
+[0.480s] Level 5:colcon.colcon_core.verb:set package 'best_camera_app_msgs' build argument 'cmake_args' from command line to 'None'
+[0.480s] Level 5:colcon.colcon_core.verb:set package 'best_camera_app_msgs' build argument 'cmake_target' from command line to 'None'
+[0.480s] Level 5:colcon.colcon_core.verb:set package 'best_camera_app_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.480s] Level 5:colcon.colcon_core.verb:set package 'best_camera_app_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.480s] Level 5:colcon.colcon_core.verb:set package 'best_camera_app_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.480s] Level 5:colcon.colcon_core.verb:set package 'best_camera_app_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.480s] Level 5:colcon.colcon_core.verb:set package 'best_camera_app_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.480s] Level 5:colcon.colcon_core.verb:set package 'best_camera_app_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.480s] Level 5:colcon.colcon_core.verb:set package 'best_camera_app_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.480s] DEBUG:colcon.colcon_core.verb:Building package 'best_camera_app_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dyjung/ros2_oneday/build/best_camera_app_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dyjung/ros2_oneday/install/best_camera_app_msgs', 'merge_install': False, 'path': '/home/dyjung/ros2_oneday/src/best_camera_app_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.480s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.481s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.481s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/dyjung/ros2_oneday/src/best_camera_app' with build type 'ament_python'
+[0.481s] Level 1:colcon.colcon_core.shell:create_environment_hook('best_camera_app', 'ament_prefix_path')
+[0.486s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.486s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dyjung/ros2_oneday/install/best_camera_app/share/best_camera_app/hook/ament_prefix_path.ps1'
+[0.487s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dyjung/ros2_oneday/install/best_camera_app/share/best_camera_app/hook/ament_prefix_path.dsv'
+[0.488s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dyjung/ros2_oneday/install/best_camera_app/share/best_camera_app/hook/ament_prefix_path.sh'
+[0.489s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.489s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.490s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/dyjung/ros2_oneday/src/best_camera_app_msgs' with build type 'ament_cmake'
+[0.490s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/dyjung/ros2_oneday/src/best_camera_app_msgs'
+[0.490s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.490s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.673s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/dyjung/ros2_oneday/src/best_camera_app'
+[0.674s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.674s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.678s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dyjung/ros2_oneday/build/best_camera_app_msgs': /usr/bin/cmake --build /home/dyjung/ros2_oneday/build/best_camera_app_msgs -- -j12 -l12
+[0.852s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dyjung/ros2_oneday/build/best_camera_app_msgs' returned '2': /usr/bin/cmake --build /home/dyjung/ros2_oneday/build/best_camera_app_msgs -- -j12 -l12
+[0.885s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(best_camera_app_msgs)
+[0.891s] Level 1:colcon.colcon_core.environment:checking '/home/dyjung/ros2_oneday/install/best_camera_app_msgs' for CMake module files
+[0.892s] Level 1:colcon.colcon_core.environment:checking '/home/dyjung/ros2_oneday/install/best_camera_app_msgs' for CMake config files
+[0.894s] Level 1:colcon.colcon_core.shell:create_environment_hook('best_camera_app_msgs', 'cmake_prefix_path')
+[0.894s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dyjung/ros2_oneday/install/best_camera_app_msgs/share/best_camera_app_msgs/hook/cmake_prefix_path.ps1'
+[0.894s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dyjung/ros2_oneday/install/best_camera_app_msgs/share/best_camera_app_msgs/hook/cmake_prefix_path.dsv'
+[0.895s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dyjung/ros2_oneday/install/best_camera_app_msgs/share/best_camera_app_msgs/hook/cmake_prefix_path.sh'
+[0.895s] Level 1:colcon.colcon_core.environment:checking '/home/dyjung/ros2_oneday/install/best_camera_app_msgs/lib'
+[0.895s] Level 1:colcon.colcon_core.shell:create_environment_hook('best_camera_app_msgs', 'ld_library_path_lib')
+[0.895s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dyjung/ros2_oneday/install/best_camera_app_msgs/share/best_camera_app_msgs/hook/ld_library_path_lib.ps1'
+[0.896s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dyjung/ros2_oneday/install/best_camera_app_msgs/share/best_camera_app_msgs/hook/ld_library_path_lib.dsv'
+[0.896s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dyjung/ros2_oneday/install/best_camera_app_msgs/share/best_camera_app_msgs/hook/ld_library_path_lib.sh'
+[0.896s] Level 1:colcon.colcon_core.environment:checking '/home/dyjung/ros2_oneday/install/best_camera_app_msgs/bin'
+[0.896s] Level 1:colcon.colcon_core.environment:checking '/home/dyjung/ros2_oneday/install/best_camera_app_msgs/lib/pkgconfig/best_camera_app_msgs.pc'
+[0.896s] Level 1:colcon.colcon_core.environment:checking '/home/dyjung/ros2_oneday/install/best_camera_app_msgs/lib/python3.10/site-packages'
+[0.896s] Level 1:colcon.colcon_core.environment:checking '/home/dyjung/ros2_oneday/install/best_camera_app_msgs/bin'
+[0.897s] INFO:colcon.colcon_core.shell:Creating package script '/home/dyjung/ros2_oneday/install/best_camera_app_msgs/share/best_camera_app_msgs/package.ps1'
+[0.897s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dyjung/ros2_oneday/install/best_camera_app_msgs/share/best_camera_app_msgs/package.dsv'
+[0.898s] INFO:colcon.colcon_core.shell:Creating package script '/home/dyjung/ros2_oneday/install/best_camera_app_msgs/share/best_camera_app_msgs/package.sh'
+[0.899s] INFO:colcon.colcon_core.shell:Creating package script '/home/dyjung/ros2_oneday/install/best_camera_app_msgs/share/best_camera_app_msgs/package.bash'
+[0.900s] INFO:colcon.colcon_core.shell:Creating package script '/home/dyjung/ros2_oneday/install/best_camera_app_msgs/share/best_camera_app_msgs/package.zsh'
+[0.900s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dyjung/ros2_oneday/install/best_camera_app_msgs/share/colcon-core/packages/best_camera_app_msgs)
+[1.048s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.048s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.049s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '2'
+[1.049s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.054s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.054s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.054s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.065s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.065s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dyjung/ros2_oneday/install/local_setup.ps1'
+[1.066s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/dyjung/ros2_oneday/install/_local_setup_util_ps1.py'
+[1.067s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dyjung/ros2_oneday/install/setup.ps1'
+[1.068s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dyjung/ros2_oneday/install/local_setup.sh'
+[1.070s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/dyjung/ros2_oneday/install/_local_setup_util_sh.py'
+[1.070s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dyjung/ros2_oneday/install/setup.sh'
+[1.071s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dyjung/ros2_oneday/install/local_setup.bash'
+[1.071s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dyjung/ros2_oneday/install/setup.bash'
+[1.072s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dyjung/ros2_oneday/install/local_setup.zsh'
+[1.072s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dyjung/ros2_oneday/install/setup.zsh'

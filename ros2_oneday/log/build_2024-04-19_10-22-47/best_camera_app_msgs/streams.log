@@ -1,0 +1,40 @@
+[0.187s] Invoking command in '/home/dyjung/ros2_oneday/build/best_camera_app_msgs': /usr/bin/cmake --build /home/dyjung/ros2_oneday/build/best_camera_app_msgs -- -j12 -l12
+[0.234s] [33mCMake Warning (dev) at CMakeLists.txt:17:
+[0.234s]   Syntax Warning in cmake code at column 26
+[0.234s] 
+[0.235s]   Argument not separated from preceding token by whitespace.
+[0.235s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.235s] [0m
+[0.235s] [33mCMake Warning (dev) at CMakeLists.txt:18:
+[0.235s]   Syntax Warning in cmake code at column 27
+[0.235s] 
+[0.235s]   Argument not separated from preceding token by whitespace.
+[0.235s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.235s] [0m
+[0.235s] [33mCMake Warning (dev) at CMakeLists.txt:19:
+[0.235s]   Syntax Warning in cmake code at column 31
+[0.235s] 
+[0.235s]   Argument not separated from preceding token by whitespace.
+[0.235s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.235s] [0m
+[0.243s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.348s] Traceback (most recent call last):
+[0.348s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py", line 21, in <module>
+[0.348s]     from ament_package.templates import get_environment_hook_template_path
+[0.348s] ModuleNotFoundError: No module named 'ament_package'
+[0.357s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/ament_cmake_package_templates-extras.cmake:41 (message):
+[0.357s]   execute_process(/usr/bin/python3
+[0.357s]   /opt/ros/humble/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py
+[0.357s]   /home/dyjung/ros2_oneday/build/best_camera_app_msgs/ament_cmake_package_templates/templates.cmake)
+[0.357s]   returned error code 1
+[0.357s] Call Stack (most recent call first):
+[0.357s]   /opt/ros/humble/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+[0.357s]   /opt/ros/humble/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+[0.357s]   /opt/ros/humble/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[0.358s]   CMakeLists.txt:9 (find_package)
+[0.358s] 
+[0.358s] [0m
+[0.358s] -- Configuring incomplete, errors occurred!
+[0.358s] See also "/home/dyjung/ros2_oneday/build/best_camera_app_msgs/CMakeFiles/CMakeOutput.log".
+[0.359s] gmake: *** [Makefile:747: cmake_check_build_system] Error 1
+[0.361s] Invoked command in '/home/dyjung/ros2_oneday/build/best_camera_app_msgs' returned '2': /usr/bin/cmake --build /home/dyjung/ros2_oneday/build/best_camera_app_msgs -- -j12 -l12

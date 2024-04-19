@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from best_camera_app_msgs/srv/ApplyBlurrService.srv
+// generated code does not contain a copyright notice
+
+
+module best_camera_app_msgs {
+  module srv {
+    struct ApplyBlurrService_Request {
+      boolean apply_blurr_true_false;
+    };
+    struct ApplyBlurrService_Response {
+      string result;
+    };
+  };
+};

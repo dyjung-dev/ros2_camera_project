@@ -1,0 +1,2 @@
+Invoking command in '/home/dyjung/ros2_oneday/build/best_camera_app_msgs': /usr/bin/cmake --build /home/dyjung/ros2_oneday/build/best_camera_app_msgs -- -j12 -l12
+Invoked command in '/home/dyjung/ros2_oneday/build/best_camera_app_msgs' returned '2': /usr/bin/cmake --build /home/dyjung/ros2_oneday/build/best_camera_app_msgs -- -j12 -l12

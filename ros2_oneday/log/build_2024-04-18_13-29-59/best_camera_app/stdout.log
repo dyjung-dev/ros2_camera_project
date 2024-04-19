@@ -1,0 +1,34 @@
+running egg_info
+creating ../../build/best_camera_app/best_camera_app.egg-info
+writing ../../build/best_camera_app/best_camera_app.egg-info/PKG-INFO
+writing dependency_links to ../../build/best_camera_app/best_camera_app.egg-info/dependency_links.txt
+writing entry points to ../../build/best_camera_app/best_camera_app.egg-info/entry_points.txt
+writing requirements to ../../build/best_camera_app/best_camera_app.egg-info/requires.txt
+writing top-level names to ../../build/best_camera_app/best_camera_app.egg-info/top_level.txt
+writing manifest file '../../build/best_camera_app/best_camera_app.egg-info/SOURCES.txt'
+reading manifest file '../../build/best_camera_app/best_camera_app.egg-info/SOURCES.txt'
+writing manifest file '../../build/best_camera_app/best_camera_app.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/dyjung/ros2_oneday/build/best_camera_app/build
+creating /home/dyjung/ros2_oneday/build/best_camera_app/build/lib
+creating /home/dyjung/ros2_oneday/build/best_camera_app/build/lib/best_camera_app
+copying best_camera_app/__init__.py -> /home/dyjung/ros2_oneday/build/best_camera_app/build/lib/best_camera_app
+copying best_camera_app/img_publisher.py -> /home/dyjung/ros2_oneday/build/best_camera_app/build/lib/best_camera_app
+running install
+running install_lib
+creating /home/dyjung/ros2_oneday/install/best_camera_app/lib/python3.10/site-packages/best_camera_app
+copying /home/dyjung/ros2_oneday/build/best_camera_app/build/lib/best_camera_app/__init__.py -> /home/dyjung/ros2_oneday/install/best_camera_app/lib/python3.10/site-packages/best_camera_app
+copying /home/dyjung/ros2_oneday/build/best_camera_app/build/lib/best_camera_app/img_publisher.py -> /home/dyjung/ros2_oneday/install/best_camera_app/lib/python3.10/site-packages/best_camera_app
+byte-compiling /home/dyjung/ros2_oneday/install/best_camera_app/lib/python3.10/site-packages/best_camera_app/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/dyjung/ros2_oneday/install/best_camera_app/lib/python3.10/site-packages/best_camera_app/img_publisher.py to img_publisher.cpython-310.pyc
+running install_data
+creating /home/dyjung/ros2_oneday/install/best_camera_app/share/ament_index
+creating /home/dyjung/ros2_oneday/install/best_camera_app/share/ament_index/resource_index
+creating /home/dyjung/ros2_oneday/install/best_camera_app/share/ament_index/resource_index/packages
+copying resource/best_camera_app -> /home/dyjung/ros2_oneday/install/best_camera_app/share/ament_index/resource_index/packages
+copying package.xml -> /home/dyjung/ros2_oneday/install/best_camera_app/share/best_camera_app
+running install_egg_info
+Copying ../../build/best_camera_app/best_camera_app.egg-info to /home/dyjung/ros2_oneday/install/best_camera_app/lib/python3.10/site-packages/best_camera_app-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/dyjung/ros2_oneday/build/best_camera_app/install.log'

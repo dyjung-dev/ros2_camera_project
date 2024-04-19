@@ -1,0 +1,1 @@
+bool apply_blurr_true_false

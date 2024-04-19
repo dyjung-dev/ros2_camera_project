@@ -1,0 +1,231 @@
+[0.217s] Invoking command in '/home/dyjung/ros2_oneday/build/best_camera_app_msgs': CMAKE_PREFIX_PATH=/home/dyjung/ros2_oneday/install/best_camera_app:/opt/ros/humble /usr/bin/cmake /home/dyjung/ros2_oneday/src/best_camera_app_msgs -DCMAKE_INSTALL_PREFIX=/home/dyjung/ros2_oneday/install/best_camera_app_msgs
+[0.333s] -- The C compiler identification is GNU 11.4.0
+[0.420s] -- The CXX compiler identification is GNU 11.4.0
+[0.430s] -- Detecting C compiler ABI info
+[0.484s] -- Detecting C compiler ABI info - done
+[0.490s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.490s] -- Detecting C compile features
+[0.491s] -- Detecting C compile features - done
+[0.493s] -- Detecting CXX compiler ABI info
+[0.554s] -- Detecting CXX compiler ABI info - done
+[0.560s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.560s] -- Detecting CXX compile features
+[0.561s] -- Detecting CXX compile features - done
+[0.565s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.682s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.764s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.768s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.775s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.820s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.038s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.178s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.354s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.371s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.372s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.392s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.392s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.392s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.393s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.408s] -- Found PythonExtra: .so  
+[1.433s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.456s] -- Added test 'lint_cmake' to check CMake code style
+[1.457s] -- Added test 'xmllint' to check XML markup files
+[1.460s] -- Configuring done
+[1.478s] -- Generating done
+[1.480s] -- Build files have been written to: /home/dyjung/ros2_oneday/build/best_camera_app_msgs
+[1.484s] Invoked command in '/home/dyjung/ros2_oneday/build/best_camera_app_msgs' returned '0': CMAKE_PREFIX_PATH=/home/dyjung/ros2_oneday/install/best_camera_app:/opt/ros/humble /usr/bin/cmake /home/dyjung/ros2_oneday/src/best_camera_app_msgs -DCMAKE_INSTALL_PREFIX=/home/dyjung/ros2_oneday/install/best_camera_app_msgs
+[1.486s] Invoking command in '/home/dyjung/ros2_oneday/build/best_camera_app_msgs': CMAKE_PREFIX_PATH=/home/dyjung/ros2_oneday/install/best_camera_app:/opt/ros/humble /usr/bin/cmake --build /home/dyjung/ros2_oneday/build/best_camera_app_msgs -- -j12 -l12
+[1.514s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.521s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.528s] [  6%] Built target ament_cmake_python_copy_best_camera_app_msgs
+[1.737s] [  6%] Built target best_camera_app_msgs__cpp
+[1.738s] [  9%] [32mBuilding C object CMakeFiles/best_camera_app_msgs__rosidl_generator_c.dir/rosidl_generator_c/best_camera_app_msgs/srv/detail/camera_capture__functions.c.o[0m
+[1.740s] running egg_info
+[1.741s] creating best_camera_app_msgs.egg-info
+[1.741s] writing best_camera_app_msgs.egg-info/PKG-INFO
+[1.741s] writing dependency_links to best_camera_app_msgs.egg-info/dependency_links.txt
+[1.741s] writing top-level names to best_camera_app_msgs.egg-info/top_level.txt
+[1.741s] writing manifest file 'best_camera_app_msgs.egg-info/SOURCES.txt'
+[1.743s] reading manifest file 'best_camera_app_msgs.egg-info/SOURCES.txt'
+[1.744s] writing manifest file 'best_camera_app_msgs.egg-info/SOURCES.txt'
+[1.745s] [ 19%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.745s] [ 19%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.745s] [ 19%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.768s] [ 19%] Built target ament_cmake_python_build_best_camera_app_msgs_egg
+[1.804s] [ 22%] [32m[1mLinking C shared library libbest_camera_app_msgs__rosidl_generator_c.so[0m
+[1.831s] [ 22%] Built target best_camera_app_msgs__rosidl_generator_c
+[1.839s] [ 32%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[1.839s] [ 32%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[1.839s] [ 32%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[1.934s] [ 35%] [32mBuilding CXX object CMakeFiles/best_camera_app_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/best_camera_app_msgs/srv/camera_capture__type_support.cpp.o[0m
+[1.953s] [ 38%] [32mBuilding CXX object CMakeFiles/best_camera_app_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/best_camera_app_msgs/srv/detail/camera_capture__type_support.cpp.o[0m
+[1.971s] [ 41%] [32mBuilding CXX object CMakeFiles/best_camera_app_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/best_camera_app_msgs/srv/detail/dds_fastrtps/camera_capture__type_support.cpp.o[0m
+[2.027s] [ 45%] [32mBuilding CXX object CMakeFiles/best_camera_app_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/best_camera_app_msgs/srv/camera_capture__type_support.cpp.o[0m
+[2.054s] [ 48%] [32m[1mLinking CXX shared library libbest_camera_app_msgs__rosidl_typesupport_c.so[0m
+[2.055s] [ 51%] [32mBuilding C object CMakeFiles/best_camera_app_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/best_camera_app_msgs/srv/detail/camera_capture__type_support.c.o[0m
+[2.058s] [ 54%] [32mBuilding CXX object CMakeFiles/best_camera_app_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/best_camera_app_msgs/srv/detail/camera_capture__type_support_c.cpp.o[0m
+[2.089s] [ 58%] [32m[1mLinking C shared library libbest_camera_app_msgs__rosidl_typesupport_introspection_c.so[0m
+[2.092s] [ 58%] Built target best_camera_app_msgs__rosidl_typesupport_c
+[2.113s] [ 58%] Built target best_camera_app_msgs__rosidl_typesupport_introspection_c
+[2.228s] [ 61%] [32m[1mLinking CXX shared library libbest_camera_app_msgs__rosidl_typesupport_cpp.so[0m
+[2.261s] [ 61%] Built target best_camera_app_msgs__rosidl_typesupport_cpp
+[2.273s] [ 64%] [32m[1mLinking CXX shared library libbest_camera_app_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[2.320s] [ 64%] Built target best_camera_app_msgs__rosidl_typesupport_introspection_cpp
+[2.330s] [ 67%] [32m[1mLinking CXX shared library libbest_camera_app_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[2.367s] [ 70%] [32m[1mLinking CXX shared library libbest_camera_app_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[2.384s] [ 70%] Built target best_camera_app_msgs__rosidl_typesupport_fastrtps_c
+[2.418s] [ 70%] Built target best_camera_app_msgs__rosidl_typesupport_fastrtps_cpp
+[2.432s] [ 70%] Built target best_camera_app_msgs
+[2.447s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[2.727s] [ 74%] Built target best_camera_app_msgs__py
+[2.741s] [ 77%] [32mBuilding C object CMakeFiles/best_camera_app_msgs__rosidl_generator_py.dir/rosidl_generator_py/best_camera_app_msgs/srv/_camera_capture_s.c.o[0m
+[2.845s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/best_camera_app_msgs/libbest_camera_app_msgs__rosidl_generator_py.so[0m
+[2.873s] [ 80%] Built target best_camera_app_msgs__rosidl_generator_py
+[2.888s] [ 90%] [32mBuilding C object CMakeFiles/best_camera_app_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/best_camera_app_msgs/_best_camera_app_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[2.888s] [ 90%] [32mBuilding C object CMakeFiles/best_camera_app_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/best_camera_app_msgs/_best_camera_app_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[2.888s] [ 90%] [32mBuilding C object CMakeFiles/best_camera_app_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/best_camera_app_msgs/_best_camera_app_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[2.959s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/best_camera_app_msgs/best_camera_app_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.959s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/best_camera_app_msgs/best_camera_app_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.959s] [100%] [32m[1mLinking C shared library rosidl_generator_py/best_camera_app_msgs/best_camera_app_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.983s] [100%] Built target best_camera_app_msgs__rosidl_typesupport_introspection_c__pyext
+[2.983s] [100%] Built target best_camera_app_msgs__rosidl_typesupport_c__pyext
+[2.983s] [100%] Built target best_camera_app_msgs__rosidl_typesupport_fastrtps_c__pyext
+[2.990s] Invoked command in '/home/dyjung/ros2_oneday/build/best_camera_app_msgs' returned '0': CMAKE_PREFIX_PATH=/home/dyjung/ros2_oneday/install/best_camera_app:/opt/ros/humble /usr/bin/cmake --build /home/dyjung/ros2_oneday/build/best_camera_app_msgs -- -j12 -l12
+[3.035s] Invoking command in '/home/dyjung/ros2_oneday/build/best_camera_app_msgs': CMAKE_PREFIX_PATH=/home/dyjung/ros2_oneday/install/best_camera_app:/opt/ros/humble /usr/bin/cmake --install /home/dyjung/ros2_oneday/build/best_camera_app_msgs
+[3.041s] -- Install configuration: ""
+[3.041s] -- Installing: /home/dyjung/ros2_oneday/install/best_camera_app_msgs/share/ament_index/resource_index/rosidl_interfaces/best_camera_app_msgs
+[3.041s] -- Installing: /home/dyjung/ros2_oneday/install/best_camera_app_msgs/include/best_camera_app_msgs/best_camera_app_msgs
+[3.041s] -- Installing: /home/dyjung/ros2_oneday/install/best_camera_app_msgs/include/best_camera_app_msgs/best_camera_app_msgs/msg
+[3.041s] -- Installing: /home/dyjung/ros2_oneday/install/best_camera_app_msgs/include/best_camera_app_msgs/best_camera_app_msgs/msg/rosidl_generator_c__visibility_control.h
+[3.042s] -- Installing: /home/dyjung/ros2_oneday/install/best_camera_app_msgs/include/best_camera_app_msgs/best_camera_app_msgs/srv
+[3.042s] -- Installing: /home/dyjung/ros2_oneday/install/best_camera_app_msgs/include/best_camera_app_msgs/best_camera_app_msgs/srv/camera_capture.h
+[3.042s] -- Installing: /home/dyjung/ros2_oneday/install/best_camera_app_msgs/include/best_camera_app_msgs/best_camera_app_msgs/srv/detail
+[3.042s] -- Installing: /home/dyjung/ros2_oneday/install/best_camera_app_msgs/include/best_camera_app_msgs/best_camera_app_msgs/srv/detail/camera_capture__functions.h
+[3.042s] -- Installing: /home/dyjung/ros2_oneday/install/best_camera_app_msgs/include/best_camera_app_msgs/best_camera_app_msgs/srv/detail/camera_capture__functions.c
+[3.042s] -- Installing: /home/dyjung/ros2_oneday/install/best_camera_app_msgs/include/best_camera_app_msgs/best_camera_app_msgs/srv/detail/camera_capture__type_support.h
+[3.042s] -- Installing: /home/dyjung/ros2_oneday/install/best_camera_app_msgs/include/best_camera_app_msgs/best_camera_app_msgs/srv/detail/camera_capture__struct.h
+[3.042s] -- Installing: /home/dyjung/ros2_oneday/install/best_camera_app_msgs/share/best_camera_app_msgs/environment/library_path.sh
+[3.042s] -- Installing: /home/dyjung/ros2_oneday/install/best_camera_app_msgs/share/best_camera_app_msgs/environment/library_path.dsv
+[3.042s] -- Installing: /home/dyjung/ros2_oneday/install/best_camera_app_msgs/lib/libbest_camera_app_msgs__rosidl_generator_c.so
+[3.042s] -- Set runtime path of "/home/dyjung/ros2_oneday/install/best_camera_app_msgs/lib/libbest_camera_app_msgs__rosidl_generator_c.so" to ""
+[3.042s] -- Up-to-date: /home/dyjung/ros2_oneday/install/best_camera_app_msgs/include/best_camera_app_msgs/best_camera_app_msgs
+[3.042s] -- Up-to-date: /home/dyjung/ros2_oneday/install/best_camera_app_msgs/include/best_camera_app_msgs/best_camera_app_msgs/msg
+[3.042s] -- Installing: /home/dyjung/ros2_oneday/install/best_camera_app_msgs/include/best_camera_app_msgs/best_camera_app_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[3.042s] -- Up-to-date: /home/dyjung/ros2_oneday/install/best_camera_app_msgs/include/best_camera_app_msgs/best_camera_app_msgs/srv
+[3.043s] -- Up-to-date: /home/dyjung/ros2_oneday/install/best_camera_app_msgs/include/best_camera_app_msgs/best_camera_app_msgs/srv/detail
+[3.043s] -- Installing: /home/dyjung/ros2_oneday/install/best_camera_app_msgs/include/best_camera_app_msgs/best_camera_app_msgs/srv/detail/camera_capture__rosidl_typesupport_fastrtps_c.h
+[3.043s] -- Installing: /home/dyjung/ros2_oneday/install/best_camera_app_msgs/lib/libbest_camera_app_msgs__rosidl_typesupport_fastrtps_c.so
+[3.043s] -- Set runtime path of "/home/dyjung/ros2_oneday/install/best_camera_app_msgs/lib/libbest_camera_app_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[3.043s] -- Up-to-date: /home/dyjung/ros2_oneday/install/best_camera_app_msgs/include/best_camera_app_msgs/best_camera_app_msgs
+[3.043s] -- Up-to-date: /home/dyjung/ros2_oneday/install/best_camera_app_msgs/include/best_camera_app_msgs/best_camera_app_msgs/msg
+[3.043s] -- Installing: /home/dyjung/ros2_oneday/install/best_camera_app_msgs/include/best_camera_app_msgs/best_camera_app_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[3.043s] -- Up-to-date: /home/dyjung/ros2_oneday/install/best_camera_app_msgs/include/best_camera_app_msgs/best_camera_app_msgs/srv
+[3.043s] -- Up-to-date: /home/dyjung/ros2_oneday/install/best_camera_app_msgs/include/best_camera_app_msgs/best_camera_app_msgs/srv/detail
+[3.043s] -- Installing: /home/dyjung/ros2_oneday/install/best_camera_app_msgs/include/best_camera_app_msgs/best_camera_app_msgs/srv/detail/camera_capture__type_support.c
+[3.043s] -- Installing: /home/dyjung/ros2_oneday/install/best_camera_app_msgs/include/best_camera_app_msgs/best_camera_app_msgs/srv/detail/camera_capture__rosidl_typesupport_introspection_c.h
+[3.043s] -- Installing: /home/dyjung/ros2_oneday/install/best_camera_app_msgs/lib/libbest_camera_app_msgs__rosidl_typesupport_introspection_c.so
+[3.043s] -- Set runtime path of "/home/dyjung/ros2_oneday/install/best_camera_app_msgs/lib/libbest_camera_app_msgs__rosidl_typesupport_introspection_c.so" to ""
+[3.043s] -- Installing: /home/dyjung/ros2_oneday/install/best_camera_app_msgs/lib/libbest_camera_app_msgs__rosidl_typesupport_c.so
+[3.043s] -- Set runtime path of "/home/dyjung/ros2_oneday/install/best_camera_app_msgs/lib/libbest_camera_app_msgs__rosidl_typesupport_c.so" to ""
+[3.044s] -- Up-to-date: /home/dyjung/ros2_oneday/install/best_camera_app_msgs/include/best_camera_app_msgs/best_camera_app_msgs
+[3.044s] -- Up-to-date: /home/dyjung/ros2_oneday/install/best_camera_app_msgs/include/best_camera_app_msgs/best_camera_app_msgs/srv
+[3.044s] -- Installing: /home/dyjung/ros2_oneday/install/best_camera_app_msgs/include/best_camera_app_msgs/best_camera_app_msgs/srv/camera_capture.hpp
+[3.044s] -- Up-to-date: /home/dyjung/ros2_oneday/install/best_camera_app_msgs/include/best_camera_app_msgs/best_camera_app_msgs/srv/detail
+[3.044s] -- Installing: /home/dyjung/ros2_oneday/install/best_camera_app_msgs/include/best_camera_app_msgs/best_camera_app_msgs/srv/detail/camera_capture__struct.hpp
+[3.044s] -- Installing: /home/dyjung/ros2_oneday/install/best_camera_app_msgs/include/best_camera_app_msgs/best_camera_app_msgs/srv/detail/camera_capture__builder.hpp
+[3.044s] -- Installing: /home/dyjung/ros2_oneday/install/best_camera_app_msgs/include/best_camera_app_msgs/best_camera_app_msgs/srv/detail/camera_capture__traits.hpp
+[3.044s] -- Up-to-date: /home/dyjung/ros2_oneday/install/best_camera_app_msgs/include/best_camera_app_msgs/best_camera_app_msgs
+[3.044s] -- Up-to-date: /home/dyjung/ros2_oneday/install/best_camera_app_msgs/include/best_camera_app_msgs/best_camera_app_msgs/msg
+[3.044s] -- Installing: /home/dyjung/ros2_oneday/install/best_camera_app_msgs/include/best_camera_app_msgs/best_camera_app_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[3.044s] -- Up-to-date: /home/dyjung/ros2_oneday/install/best_camera_app_msgs/include/best_camera_app_msgs/best_camera_app_msgs/srv
+[3.044s] -- Up-to-date: /home/dyjung/ros2_oneday/install/best_camera_app_msgs/include/best_camera_app_msgs/best_camera_app_msgs/srv/detail
+[3.044s] -- Installing: /home/dyjung/ros2_oneday/install/best_camera_app_msgs/include/best_camera_app_msgs/best_camera_app_msgs/srv/detail/dds_fastrtps
+[3.044s] -- Installing: /home/dyjung/ros2_oneday/install/best_camera_app_msgs/include/best_camera_app_msgs/best_camera_app_msgs/srv/detail/camera_capture__rosidl_typesupport_fastrtps_cpp.hpp
+[3.044s] -- Installing: /home/dyjung/ros2_oneday/install/best_camera_app_msgs/lib/libbest_camera_app_msgs__rosidl_typesupport_fastrtps_cpp.so
+[3.044s] -- Set runtime path of "/home/dyjung/ros2_oneday/install/best_camera_app_msgs/lib/libbest_camera_app_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[3.044s] -- Up-to-date: /home/dyjung/ros2_oneday/install/best_camera_app_msgs/include/best_camera_app_msgs/best_camera_app_msgs
+[3.044s] -- Up-to-date: /home/dyjung/ros2_oneday/install/best_camera_app_msgs/include/best_camera_app_msgs/best_camera_app_msgs/srv
+[3.045s] -- Up-to-date: /home/dyjung/ros2_oneday/install/best_camera_app_msgs/include/best_camera_app_msgs/best_camera_app_msgs/srv/detail
+[3.045s] -- Installing: /home/dyjung/ros2_oneday/install/best_camera_app_msgs/include/best_camera_app_msgs/best_camera_app_msgs/srv/detail/camera_capture__type_support.cpp
+[3.045s] -- Installing: /home/dyjung/ros2_oneday/install/best_camera_app_msgs/include/best_camera_app_msgs/best_camera_app_msgs/srv/detail/camera_capture__rosidl_typesupport_introspection_cpp.hpp
+[3.045s] -- Installing: /home/dyjung/ros2_oneday/install/best_camera_app_msgs/lib/libbest_camera_app_msgs__rosidl_typesupport_introspection_cpp.so
+[3.045s] -- Set runtime path of "/home/dyjung/ros2_oneday/install/best_camera_app_msgs/lib/libbest_camera_app_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[3.045s] -- Installing: /home/dyjung/ros2_oneday/install/best_camera_app_msgs/lib/libbest_camera_app_msgs__rosidl_typesupport_cpp.so
+[3.045s] -- Set runtime path of "/home/dyjung/ros2_oneday/install/best_camera_app_msgs/lib/libbest_camera_app_msgs__rosidl_typesupport_cpp.so" to ""
+[3.045s] -- Installing: /home/dyjung/ros2_oneday/install/best_camera_app_msgs/share/best_camera_app_msgs/environment/pythonpath.sh
+[3.045s] -- Installing: /home/dyjung/ros2_oneday/install/best_camera_app_msgs/share/best_camera_app_msgs/environment/pythonpath.dsv
+[3.045s] -- Installing: /home/dyjung/ros2_oneday/install/best_camera_app_msgs/local/lib/python3.10/dist-packages/best_camera_app_msgs-0.0.0-py3.10.egg-info
+[3.045s] -- Installing: /home/dyjung/ros2_oneday/install/best_camera_app_msgs/local/lib/python3.10/dist-packages/best_camera_app_msgs-0.0.0-py3.10.egg-info/dependency_links.txt
+[3.045s] -- Installing: /home/dyjung/ros2_oneday/install/best_camera_app_msgs/local/lib/python3.10/dist-packages/best_camera_app_msgs-0.0.0-py3.10.egg-info/SOURCES.txt
+[3.045s] -- Installing: /home/dyjung/ros2_oneday/install/best_camera_app_msgs/local/lib/python3.10/dist-packages/best_camera_app_msgs-0.0.0-py3.10.egg-info/top_level.txt
+[3.045s] -- Installing: /home/dyjung/ros2_oneday/install/best_camera_app_msgs/local/lib/python3.10/dist-packages/best_camera_app_msgs-0.0.0-py3.10.egg-info/PKG-INFO
+[3.045s] -- Installing: /home/dyjung/ros2_oneday/install/best_camera_app_msgs/local/lib/python3.10/dist-packages/best_camera_app_msgs
+[3.046s] -- Installing: /home/dyjung/ros2_oneday/install/best_camera_app_msgs/local/lib/python3.10/dist-packages/best_camera_app_msgs/_best_camera_app_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[3.046s] -- Installing: /home/dyjung/ros2_oneday/install/best_camera_app_msgs/local/lib/python3.10/dist-packages/best_camera_app_msgs/best_camera_app_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[3.046s] -- Installing: /home/dyjung/ros2_oneday/install/best_camera_app_msgs/local/lib/python3.10/dist-packages/best_camera_app_msgs/_best_camera_app_msgs_s.ep.rosidl_typesupport_c.c
+[3.046s] -- Installing: /home/dyjung/ros2_oneday/install/best_camera_app_msgs/local/lib/python3.10/dist-packages/best_camera_app_msgs/_best_camera_app_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[3.046s] -- Installing: /home/dyjung/ros2_oneday/install/best_camera_app_msgs/local/lib/python3.10/dist-packages/best_camera_app_msgs/__init__.py
+[3.046s] -- Installing: /home/dyjung/ros2_oneday/install/best_camera_app_msgs/local/lib/python3.10/dist-packages/best_camera_app_msgs/srv
+[3.046s] -- Installing: /home/dyjung/ros2_oneday/install/best_camera_app_msgs/local/lib/python3.10/dist-packages/best_camera_app_msgs/srv/_camera_capture.py
+[3.046s] -- Installing: /home/dyjung/ros2_oneday/install/best_camera_app_msgs/local/lib/python3.10/dist-packages/best_camera_app_msgs/srv/_camera_capture_s.c
+[3.046s] -- Installing: /home/dyjung/ros2_oneday/install/best_camera_app_msgs/local/lib/python3.10/dist-packages/best_camera_app_msgs/srv/__init__.py
+[3.046s] -- Installing: /home/dyjung/ros2_oneday/install/best_camera_app_msgs/local/lib/python3.10/dist-packages/best_camera_app_msgs/best_camera_app_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[3.046s] -- Installing: /home/dyjung/ros2_oneday/install/best_camera_app_msgs/local/lib/python3.10/dist-packages/best_camera_app_msgs/best_camera_app_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[3.046s] -- Installing: /home/dyjung/ros2_oneday/install/best_camera_app_msgs/local/lib/python3.10/dist-packages/best_camera_app_msgs/libbest_camera_app_msgs__rosidl_generator_py.so
+[3.072s] Listing '/home/dyjung/ros2_oneday/install/best_camera_app_msgs/local/lib/python3.10/dist-packages/best_camera_app_msgs'...
+[3.073s] Compiling '/home/dyjung/ros2_oneday/install/best_camera_app_msgs/local/lib/python3.10/dist-packages/best_camera_app_msgs/__init__.py'...
+[3.073s] Listing '/home/dyjung/ros2_oneday/install/best_camera_app_msgs/local/lib/python3.10/dist-packages/best_camera_app_msgs/srv'...
+[3.073s] Compiling '/home/dyjung/ros2_oneday/install/best_camera_app_msgs/local/lib/python3.10/dist-packages/best_camera_app_msgs/srv/__init__.py'...
+[3.073s] Compiling '/home/dyjung/ros2_oneday/install/best_camera_app_msgs/local/lib/python3.10/dist-packages/best_camera_app_msgs/srv/_camera_capture.py'...
+[3.076s] -- Installing: /home/dyjung/ros2_oneday/install/best_camera_app_msgs/local/lib/python3.10/dist-packages/best_camera_app_msgs/best_camera_app_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[3.076s] -- Set runtime path of "/home/dyjung/ros2_oneday/install/best_camera_app_msgs/local/lib/python3.10/dist-packages/best_camera_app_msgs/best_camera_app_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[3.076s] -- Installing: /home/dyjung/ros2_oneday/install/best_camera_app_msgs/local/lib/python3.10/dist-packages/best_camera_app_msgs/best_camera_app_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[3.076s] -- Set runtime path of "/home/dyjung/ros2_oneday/install/best_camera_app_msgs/local/lib/python3.10/dist-packages/best_camera_app_msgs/best_camera_app_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[3.076s] -- Installing: /home/dyjung/ros2_oneday/install/best_camera_app_msgs/local/lib/python3.10/dist-packages/best_camera_app_msgs/best_camera_app_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[3.076s] -- Set runtime path of "/home/dyjung/ros2_oneday/install/best_camera_app_msgs/local/lib/python3.10/dist-packages/best_camera_app_msgs/best_camera_app_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[3.077s] -- Installing: /home/dyjung/ros2_oneday/install/best_camera_app_msgs/lib/libbest_camera_app_msgs__rosidl_generator_py.so
+[3.077s] -- Set runtime path of "/home/dyjung/ros2_oneday/install/best_camera_app_msgs/lib/libbest_camera_app_msgs__rosidl_generator_py.so" to ""
+[3.077s] -- Installing: /home/dyjung/ros2_oneday/install/best_camera_app_msgs/share/best_camera_app_msgs/srv/CameraCapture.idl
+[3.077s] -- Installing: /home/dyjung/ros2_oneday/install/best_camera_app_msgs/share/best_camera_app_msgs/srv/CameraCapture.srv
+[3.077s] -- Installing: /home/dyjung/ros2_oneday/install/best_camera_app_msgs/share/best_camera_app_msgs/srv/CameraCapture_Request.msg
+[3.077s] -- Installing: /home/dyjung/ros2_oneday/install/best_camera_app_msgs/share/best_camera_app_msgs/srv/CameraCapture_Response.msg
+[3.077s] -- Installing: /home/dyjung/ros2_oneday/install/best_camera_app_msgs/share/ament_index/resource_index/package_run_dependencies/best_camera_app_msgs
+[3.077s] -- Installing: /home/dyjung/ros2_oneday/install/best_camera_app_msgs/share/ament_index/resource_index/parent_prefix_path/best_camera_app_msgs
+[3.077s] -- Installing: /home/dyjung/ros2_oneday/install/best_camera_app_msgs/share/best_camera_app_msgs/environment/ament_prefix_path.sh
+[3.077s] -- Installing: /home/dyjung/ros2_oneday/install/best_camera_app_msgs/share/best_camera_app_msgs/environment/ament_prefix_path.dsv
+[3.077s] -- Installing: /home/dyjung/ros2_oneday/install/best_camera_app_msgs/share/best_camera_app_msgs/environment/path.sh
+[3.077s] -- Installing: /home/dyjung/ros2_oneday/install/best_camera_app_msgs/share/best_camera_app_msgs/environment/path.dsv
+[3.077s] -- Installing: /home/dyjung/ros2_oneday/install/best_camera_app_msgs/share/best_camera_app_msgs/local_setup.bash
+[3.077s] -- Installing: /home/dyjung/ros2_oneday/install/best_camera_app_msgs/share/best_camera_app_msgs/local_setup.sh
+[3.078s] -- Installing: /home/dyjung/ros2_oneday/install/best_camera_app_msgs/share/best_camera_app_msgs/local_setup.zsh
+[3.078s] -- Installing: /home/dyjung/ros2_oneday/install/best_camera_app_msgs/share/best_camera_app_msgs/local_setup.dsv
+[3.078s] -- Installing: /home/dyjung/ros2_oneday/install/best_camera_app_msgs/share/best_camera_app_msgs/package.dsv
+[3.078s] -- Installing: /home/dyjung/ros2_oneday/install/best_camera_app_msgs/share/ament_index/resource_index/packages/best_camera_app_msgs
+[3.078s] -- Installing: /home/dyjung/ros2_oneday/install/best_camera_app_msgs/share/best_camera_app_msgs/cmake/export_best_camera_app_msgs__rosidl_generator_cExport.cmake
+[3.078s] -- Installing: /home/dyjung/ros2_oneday/install/best_camera_app_msgs/share/best_camera_app_msgs/cmake/export_best_camera_app_msgs__rosidl_generator_cExport-noconfig.cmake
+[3.078s] -- Installing: /home/dyjung/ros2_oneday/install/best_camera_app_msgs/share/best_camera_app_msgs/cmake/export_best_camera_app_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[3.078s] -- Installing: /home/dyjung/ros2_oneday/install/best_camera_app_msgs/share/best_camera_app_msgs/cmake/export_best_camera_app_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[3.078s] -- Installing: /home/dyjung/ros2_oneday/install/best_camera_app_msgs/share/best_camera_app_msgs/cmake/best_camera_app_msgs__rosidl_typesupport_introspection_cExport.cmake
+[3.078s] -- Installing: /home/dyjung/ros2_oneday/install/best_camera_app_msgs/share/best_camera_app_msgs/cmake/best_camera_app_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[3.078s] -- Installing: /home/dyjung/ros2_oneday/install/best_camera_app_msgs/share/best_camera_app_msgs/cmake/best_camera_app_msgs__rosidl_typesupport_cExport.cmake
+[3.079s] -- Installing: /home/dyjung/ros2_oneday/install/best_camera_app_msgs/share/best_camera_app_msgs/cmake/best_camera_app_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[3.079s] -- Installing: /home/dyjung/ros2_oneday/install/best_camera_app_msgs/share/best_camera_app_msgs/cmake/export_best_camera_app_msgs__rosidl_generator_cppExport.cmake
+[3.079s] -- Installing: /home/dyjung/ros2_oneday/install/best_camera_app_msgs/share/best_camera_app_msgs/cmake/export_best_camera_app_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[3.079s] -- Installing: /home/dyjung/ros2_oneday/install/best_camera_app_msgs/share/best_camera_app_msgs/cmake/export_best_camera_app_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[3.079s] -- Installing: /home/dyjung/ros2_oneday/install/best_camera_app_msgs/share/best_camera_app_msgs/cmake/best_camera_app_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[3.079s] -- Installing: /home/dyjung/ros2_oneday/install/best_camera_app_msgs/share/best_camera_app_msgs/cmake/best_camera_app_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[3.079s] -- Installing: /home/dyjung/ros2_oneday/install/best_camera_app_msgs/share/best_camera_app_msgs/cmake/best_camera_app_msgs__rosidl_typesupport_cppExport.cmake
+[3.079s] -- Installing: /home/dyjung/ros2_oneday/install/best_camera_app_msgs/share/best_camera_app_msgs/cmake/best_camera_app_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[3.079s] -- Installing: /home/dyjung/ros2_oneday/install/best_camera_app_msgs/share/best_camera_app_msgs/cmake/export_best_camera_app_msgs__rosidl_generator_pyExport.cmake
+[3.080s] -- Installing: /home/dyjung/ros2_oneday/install/best_camera_app_msgs/share/best_camera_app_msgs/cmake/export_best_camera_app_msgs__rosidl_generator_pyExport-noconfig.cmake
+[3.080s] -- Installing: /home/dyjung/ros2_oneday/install/best_camera_app_msgs/share/best_camera_app_msgs/cmake/rosidl_cmake-extras.cmake
+[3.080s] -- Installing: /home/dyjung/ros2_oneday/install/best_camera_app_msgs/share/best_camera_app_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.081s] -- Installing: /home/dyjung/ros2_oneday/install/best_camera_app_msgs/share/best_camera_app_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[3.081s] -- Installing: /home/dyjung/ros2_oneday/install/best_camera_app_msgs/share/best_camera_app_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[3.081s] -- Installing: /home/dyjung/ros2_oneday/install/best_camera_app_msgs/share/best_camera_app_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[3.081s] -- Installing: /home/dyjung/ros2_oneday/install/best_camera_app_msgs/share/best_camera_app_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.081s] -- Installing: /home/dyjung/ros2_oneday/install/best_camera_app_msgs/share/best_camera_app_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[3.081s] -- Installing: /home/dyjung/ros2_oneday/install/best_camera_app_msgs/share/best_camera_app_msgs/cmake/best_camera_app_msgsConfig.cmake
+[3.081s] -- Installing: /home/dyjung/ros2_oneday/install/best_camera_app_msgs/share/best_camera_app_msgs/cmake/best_camera_app_msgsConfig-version.cmake
+[3.081s] -- Installing: /home/dyjung/ros2_oneday/install/best_camera_app_msgs/share/best_camera_app_msgs/package.xml
+[3.083s] Invoked command in '/home/dyjung/ros2_oneday/build/best_camera_app_msgs' returned '0': CMAKE_PREFIX_PATH=/home/dyjung/ros2_oneday/install/best_camera_app:/opt/ros/humble /usr/bin/cmake --install /home/dyjung/ros2_oneday/build/best_camera_app_msgs

@@ -1,0 +1,2 @@
+
+string result_path

@@ -1,0 +1,16 @@
+srv/ApplyBlurrService.idl
+srv/ApplyBlurrService.srv
+srv/ApplyBlurrService_Request.msg
+srv/ApplyBlurrService_Response.msg
+srv/ApplyRGBService.idl
+srv/ApplyRGBService.srv
+srv/ApplyRGBService_Request.msg
+srv/ApplyRGBService_Response.msg
+srv/CaptureService.idl
+srv/CaptureService.srv
+srv/CaptureService_Request.msg
+srv/CaptureService_Response.msg
+srv/VideoRecordService.idl
+srv/VideoRecordService.srv
+srv/VideoRecordService_Request.msg
+srv/VideoRecordService_Response.msg

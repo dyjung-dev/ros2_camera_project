@@ -1,0 +1,9 @@
+{
+  "package_name": "best_camera_app_msgs",
+  "non_idl_tuples": [
+    "/home/dyjung/ros2_oneday/src/best_camera_app_msgs:srv/CaptureService.srv",
+    "/home/dyjung/ros2_oneday/src/best_camera_app_msgs:srv/VideoRecordService.srv",
+    "/home/dyjung/ros2_oneday/src/best_camera_app_msgs:srv/ApplyBlurrService.srv",
+    "/home/dyjung/ros2_oneday/src/best_camera_app_msgs:srv/ApplyRGBService.srv"
+  ]
+}

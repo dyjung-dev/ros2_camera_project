@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from best_camera_app_msgs/srv/CaptureService.srv
+// generated code does not contain a copyright notice
+
+
+module best_camera_app_msgs {
+  module srv {
+    struct CaptureService_Request {
+      boolean capture_true;
+    };
+    struct CaptureService_Response {
+      string result_path;
+    };
+  };
+};
